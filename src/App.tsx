@@ -22,7 +22,7 @@ const App = () => (
       <Sonner />
       <AuthProvider>
         <ShipmentProvider>
-          <BrowserRouter>
+          <BrowserRouter basename="/pharma">
             <Navigation />
             <Routes>
               <Route path="/" element={<Home />} />
